@@ -12,29 +12,24 @@ public class Book {
     }
 
     public String getTitle() {
-
         return title;
     }
 
     public Author getAuthor() {
-
         return author;
     }
 
     public int getPublishingYear() {
-
         return publishingYear;
     }
 
     public void setPublishingYear(int publishingYear) {
-
         this.publishingYear = publishingYear;
     }
 
     @Override
     public String toString() {
         return "Книга: \"" + title + "\", автор: " + author.toString() + ", год: " + publishingYear;
-
     }
 
     @Override
@@ -48,5 +43,6 @@ public class Book {
     @Override
     public int hashCode() {
         return Objects.hash(title, author, publishingYear);
+
     }
 }
