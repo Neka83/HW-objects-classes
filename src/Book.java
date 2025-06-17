@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 public class Book {
     private String title;
     private Author author;
@@ -27,6 +25,8 @@ public class Book {
         this.publishingYear = publishingYear;
     }
 
+}
+
     @Override
     public String toString() {
         return "Книга: \"" + title + "\", автор: " + author.toString() + ", год: " + publishingYear;
@@ -46,3 +46,4 @@ public class Book {
 
     }
 }
+

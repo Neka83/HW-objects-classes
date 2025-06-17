@@ -1,6 +1,3 @@
-import java.util.Objects;
-
-
 public class Author {
     private String firstName;
     private String lastName;
@@ -11,17 +8,14 @@ public class Author {
     }
 
     public String getFirstName() {
-
         return firstName;
     }
 
     public String getLastName() {
-
         return lastName;
     }
 
     public String getFullName() {
-
         return firstName + " " + lastName;
     }
 
@@ -44,4 +38,6 @@ public class Author {
 
         return Objects.hash(firstName, lastName);
     }
+
 }
+
